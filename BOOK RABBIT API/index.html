@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FANTASY BOOKS GENERATOR</title>
+    <link rel="stylesheet" href="css/style.css" 
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat+Brush&family=Pacifico&family=Rock+3D&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>BOOK Rabbit</h1>
+      <span id="secondheader">Fantasy & Magical Books</span>
+    </header>
+    <main class="section-container">
+      <section class='column' id="left-column">
+        <article class='item'>
+          <select name="books-selection" id="books-select">
+            <option value='starter' selected>Select Author</option>
+          </select>
+        </article>
+        <section class='item'>
+          <article class="'img-container">
+            <div class="container">
+              <img id="cover" src="" class='wings-of-fire-img' alt='wings of fire book image' />
+            </div>
+          </article>
+        </section>
+      </section>
+      <section class='column' id="right-column">
+        <section class='item'>
+          <p class='title'>Title: <span id="title"></span></p>
+          <p class='author'>Author: <span id="author"></span></p>
+        </section>
+        <section class="item">
+          <span>Book Description</span>
+          <p id="description"></p>
+        </section>
+      </section>
+      </section>
+    </main>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+html {
+    font-size: 2rem;
+    font-family: "frankling Gothic Light", Arial, Helvetica, sans-serif;
+    background: white;
+    height: 100vh;
+}
+
+header {
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Rock 3D", cursive;
+    font-size: 1.5rem;
+}
+
+#secondheader {
+    font-size: 1.4rem;
+    font-family: "Bebas Neue", cursive;
+    text-align: center;
+}
+
+select {
+    font-size: 0.7rem;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 520px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.title span {
+    text-transform: capitalize;
+}
+
+.author span {
+    font-weight: bold;
+}
+
+img {
+    max-width: 500px;
+    max-height: 700px;
+}
+
+span {
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+#left-column {
+    text-align: center;
+    width: 40%;
+}
+
+#right-column {
+    margin-top: 2rem;
+    width: 55%;
+}
+
+p {
+    font-size: 0.7rem;
+}
+
+@media (min-width: 1200px) {
+    .section-container {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
